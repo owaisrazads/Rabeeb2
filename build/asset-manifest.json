@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d7673b57.css",
+    "main.js": "/static/js/main.98a0ac9b.js",
+    "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/modernbank.png": "/static/media/modernbank.f2d8b1fcc6218594d5f5.png",
+    "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/offcampushire.png": "/static/media/offcampushire.aff5995a8c8e96b37db5.png",
+    "static/media/p1.png": "/static/media/p1.9cb44c35c33459529831.png",
+    "static/media/careersense.png": "/static/media/careersense.5b141b9bd9b335292979.png",
+    "static/media/ecell.png": "/static/media/ecell.c66534575bcf8c0d97bb.png",
+    "static/media/ulearner.png": "/static/media/ulearner.fe006c03c2092e74e540.png",
+    "static/media/remixicon.woff?t=1590207869815": "/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/tbikiet.png": "/static/media/tbikiet.122fdaa99b95271b2534.png",
+    "static/media/remixicon.woff2?t=1590207869815": "/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/coderships.png": "/static/media/coderships.fedd307760c25aa80a33.png",
+    "static/media/quiz.png": "/static/media/quiz.7ea612e397c16da30897.png",
+    "static/media/bookstore.png": "/static/media/bookstore.4fe7435efe1074ac6127.png",
+    "static/media/weatherapp.png": "/static/media/weatherapp.16ff12901fab4c470b0c.png",
+    "static/media/todo.png": "/static/media/todo.970c0483482655b3bc24.png",
+    "static/media/home-image.avif": "/static/media/home-image.21f193183ae157d9c5e6.avif",
+    "index.html": "/index.html",
+    "main.d7673b57.css.map": "/static/css/main.d7673b57.css.map",
+    "main.98a0ac9b.js.map": "/static/js/main.98a0ac9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7673b57.css",
+    "static/js/main.98a0ac9b.js"
+  ]
+}
