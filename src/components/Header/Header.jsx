@@ -39,34 +39,31 @@ const Header = () => {
 
     const toggleMenu = () => menuRef.current.classList.toggle('show_menu')
     return (
-        <header ref={headerRef} className='w-full h-[80px] flex items-center'>
+        <header ref={headerRef} className='flex items-center w-full h-[80px]'>
             <div className='container'>
-                <div className='flex items-center justify-between'>
+                <div className='flex justify-between items-center'>
                     <a href='/' className='flex items-center gap-[10px]'>
-                        <span className='w-[35px] h-[35px] bg-primaryColor text-white text-[18px] font-[500] rounded-full flex items-center justify-center'>RT</span>
+                        <span className='flex justify-center items-center bg-primaryColor rounded-full w-[35px] h-[35px] font-[500] text-[18px] text-white'>RT</span>
                         <div className='leading-[20px]'>
-                            <h2 className='text-xl text-smallTextColor font-[700]'>Rabeeb</h2>
-                            <p className='text-smallTextColor text-[14px] font-[500]'>Tehseen</p>
+                            <h2 className='font-[700] text-smallTextColor text-xl'>Rabeeb</h2>
+                            <p className='font-[500] text-[14px] text-smallTextColor'>Tehseen</p>
                         </div>
                     </a>
-                    <div ref={menuRef} onClick={toggleMenu} className='menu'>
+                    <div className='menu'>
                         <ul className='flex items-center gap-10'>
-                            <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#about">About</a></li>
-                            <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#portfolio">Portfolio</a></li>
-                            <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#services">Services</a></li>
-                            {/* <li><a onClick={handleClick} className='text-smallTextColor font-[600]' href="#services">Contact</a></li> */}
+                            <li><a  className='font-[600] text-smallTextColor cursor-pointer' >About</a></li>
+                            <li><a  className='font-[600] text-smallTextColor cursor-pointer'>Portfolio</a></li>
+                            <li><a  className='font-[600] text-smallTextColor cursor-pointer'>Services</a></li>
                         </ul>
                     </div>
 
                     <div className='flex items-center gap-4'>
                         <a href="#portfolio">
-                            <button className='flex items-center gap-2 text-smallTextColor font-[600] border border-solid
-                        border-smallTextColor py-2 px-4 rounded-[8px] max-h-[40px] hover:bg-smallTextColor
-                        hover:text-white hover:font-[500] ease-in duration-300'>
+                            <button className='flex items-center gap-2 border-smallTextColor hover:bg-smallTextColor px-4 py-2 border border-solid rounded-[8px] max-h-[40px] font-[600] hover:font-[500] text-smallTextColor hover:text-white duration-300 ease-in'>
                                 <i class="ri-send-plane-line"></i> Portfolio
                             </button>
                         </a>
-                        <span onClick={toggleMenu} className='text-2xl text-smallTextColor md:hidden cursor-pointer'>
+                        <span onClick={toggleMenu} className='md:hidden text-2xl text-smallTextColor cursor-pointer'>
                             <i className='ri-menu-line'></i>
                         </span>
                     </div>
@@ -75,17 +72,17 @@ const Header = () => {
                   
 
                 </div>
-     <div className='flex justify-end'>
+     {/* <div className='flex justify-end'>
             <a
                 href="https://api.whatsapp.com/send?phone=923202034806"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-[#3b82f6] text-white rounded-full p-1 text-sm bottom-0 mt-80 mb-10 fixed cursor-pointer inline-block transition-transform hover:scale-105"
+                className="inline-block bottom-0 fixed bg-[#3b82f6] mt-80 mb-10 p-1 rounded-full text-sm text-white transition-transform cursor-pointer hover:scale-105"
                 style={{ textDecoration: 'none' }}
             >
                 <FaWhatsapp className="w-12 h-12" />
             </a>
-        </div>
+        </div> */}
             </div>
         </header>
     )

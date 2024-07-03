@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7673b57.css",
-    "main.js": "/static/js/main.98a0ac9b.js",
+    "main.css": "/static/css/main.72f9ff14.css",
+    "main.js": "/static/js/main.dfa52c4a.js",
     "static/media/remixicon.svg?t=1590207869815": "/static/media/remixicon.9cedd2150922ead84869.svg",
     "static/media/modernbank.png": "/static/media/modernbank.f2d8b1fcc6218594d5f5.png",
     "static/media/remixicon.eot?t=1590207869815": "/static/media/remixicon.5cb99e6cba5a4619063f.eot",
@@ -21,11 +21,11 @@
     "static/media/todo.png": "/static/media/todo.970c0483482655b3bc24.png",
     "static/media/home-image.avif": "/static/media/home-image.21f193183ae157d9c5e6.avif",
     "index.html": "/index.html",
-    "main.d7673b57.css.map": "/static/css/main.d7673b57.css.map",
-    "main.98a0ac9b.js.map": "/static/js/main.98a0ac9b.js.map"
+    "main.72f9ff14.css.map": "/static/css/main.72f9ff14.css.map",
+    "main.dfa52c4a.js.map": "/static/js/main.dfa52c4a.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7673b57.css",
-    "static/js/main.98a0ac9b.js"
+    "static/css/main.72f9ff14.css",
+    "static/js/main.dfa52c4a.js"
   ]
 }
