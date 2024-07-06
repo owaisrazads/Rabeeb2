@@ -1,6 +1,14 @@
 import React from 'react'
-import frontendImg from '../../assets/images/front-end.png'
-import backendImg from '../../assets/images/backend.png'
+import { BsBadge3dFill, BsBuildings, BsFillBadge3dFill } from 'react-icons/bs';
+import { FaMobileAlt } from 'react-icons/fa'
+import { HiBuildingLibrary, HiMiniBuildingLibrary } from 'react-icons/hi2';
+import { IoMdMan } from 'react-icons/io';
+import { MdLaptopMac } from 'react-icons/md'
+// import { SiTaichigraphics } from 'react-icons/si'
+import { SiTaichigraphics } from "react-icons/si";
+
+// import frontendImg from '../../assets/images/front-end.png'
+// import backendImg from '../../assets/images/backend.png'
 const Services = () => {
     return (
         <section id='services'>
@@ -32,7 +40,10 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={frontendImg} alt="" />
+                                            {/* <img src="" alt="" />   */}
+                                            <MdLaptopMac className='text-white text-lg' />
+
+                                            {/* Web icon */}
                                         </figure>
                                     </div>
 
@@ -55,7 +66,10 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={backendImg} alt="" />
+                                            {/* <img src="" alt="" /> */}
+                                            <FaMobileAlt className='text-white text-lg'/>
+                                            {/* App icon */}
+
                                         </figure>
                                     </div>
 
@@ -78,7 +92,11 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor transition-all border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={frontendImg} alt="" />
+                                            {/* <img src="" alt="" /> */}
+                                            <SiTaichigraphics className='text-white text-lg' />
+
+                                            {/* gfx icon */}
+
                                         </figure>
                                     </div>
 
@@ -101,7 +119,11 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={backendImg} alt="" />
+                                            <img src='' alt="" />
+                                            {/* 2D icon */}
+                                            <IoMdMan className='text-white text-lg' />
+
+
                                         </figure>
                                     </div>
 
@@ -125,7 +147,11 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={frontendImg} alt="" />
+                                            <img src="" alt="" />
+                                            {/* 3D icon */}
+                                            <BsFillBadge3dFill className='text-white text-lg' />
+
+
                                         </figure>
                                     </div>
 
@@ -148,7 +174,12 @@ const Services = () => {
                                     </div>
                                     <div className="rounded-full bg-primaryColor border-white border-4 w-10 h-10 absolute left-1/2 transform -translate-x-1/2 -translate-y-4 sm:translate-y-0 flex items-center justify-center ">
                                         <figure>
-                                            <img src={backendImg} alt="" />
+                                            <img src='' alt="" />
+                                            {/* archei icon */}
+
+                                            <HiMiniBuildingLibrary className='text-white text-lg' />
+
+
                                         </figure>
                                     </div>
 
