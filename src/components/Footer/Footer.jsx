@@ -48,9 +48,9 @@ emailjs
                     <p className='text-white font-semibold text-center text-2xl'>Contact form</p>
                     <form className="mt-4" ref={form} onSubmit={sendEmail}>
                         <div className="flex flex-col gap-4">
-                            <input type="text" placeholder="Your Name" name='name' className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" />
-                            <input type="email" placeholder="Your Email" name='email' className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" />
-                            <textarea placeholder="Your Message" rows="4" name='message' className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" style={{minHeight:"100px", maxHeight:"120px"}}></textarea>
+                            <input type="text" placeholder="Your Name" name='name' required className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" />
+                            <input type="email" placeholder="Your Email" name='email' required className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" />
+                            <textarea placeholder="Your Message" rows="4" name='message' required className="px-4 py-3 bg-gray-800 text-white border border-gray-700 rounded-lg focus:outline-none focus:border-blue-500" style={{minHeight:"100px", maxHeight:"120px"}}></textarea>
                           
                         </div>
                        <div className='flex justify-end'>
@@ -66,11 +66,11 @@ emailjs
                         <div className="hidden sm:block">
                             <div className="flex items-center gap-[10px]">
                                 <span className='w-[35px] h-[35px] rounded-full bg-[#2b2d33] text-white font-[500] text-[18px] flex items-center justify-center '>
-                                    RT.
+                                    MA.
                                 </span>
                                 <div className="leading-[20px]">
-                                    <h2 className='text-gray-200 font-[500] text-[18px]'>Rabeeb</h2>
-                                    <p className='text-gray-400 text-[14px] font-[500]'>Tehseen</p>
+                                    <h2 className='text-gray-200 font-[500] text-[18px]'>Moiz</h2>
+                                    <p className='text-gray-400 text-[14px] font-[500]'>Ahmed</p>
                                 </div>
                             </div>
                         </div>

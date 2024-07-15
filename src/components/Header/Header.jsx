@@ -43,10 +43,10 @@ const Header = () => {
             <div className='container'>
                 <div className='flex justify-between items-center'>
                     <a href='/' className='flex items-center gap-[10px]'>
-                        <span className='flex justify-center items-center bg-primaryColor rounded-full w-[35px] h-[35px] font-[500] text-[18px] text-white'>RT</span>
+                        <span className='flex justify-center items-center bg-primaryColor rounded-full w-[35px] h-[35px] font-[500] text-[18px] text-white'>MA</span>
                         <div className='leading-[20px]'>
-                            <h2 className='font-[700] text-smallTextColor text-xl'>Rabeeb</h2>
-                            <p className='font-[500] text-[14px] text-smallTextColor'>Tehseen</p>
+                            <h2 className='font-[700] text-smallTextColor text-xl'>Moiz</h2>
+                            <p className='font-[500] text-[14px] text-smallTextColor'>Ahmed</p>
                         </div>
                     </a>
                     <div className='menu'>
